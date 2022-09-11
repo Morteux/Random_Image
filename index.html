@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Image</title>
+</head>
+
+<body>
+    <script>
+        const images = [
+            "image1.png",
+            "image2.png",
+            "image3.png"
+        ]
+
+        var number = Math.floor(Math.random() * images.length);
+
+        let url = "Images/" + images[number];
+
+        window.location.href = url;
+
+    </script>
+</body>
+
+</html>
